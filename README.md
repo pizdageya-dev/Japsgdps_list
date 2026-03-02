@@ -25,6 +25,7 @@ h2{color:orange;}
 <body>
 
 <h2 style="padding:20px">Game Levels</h2>
+
 <div class="tabs">
 <button class="tab-button active" onclick="openTab('demon',this)">Demon List</button>
 <button class="tab-button" onclick="openTab('pemon',this)">Pemon List</button>
@@ -98,7 +99,7 @@ function showDesc(levelName){
                    <strong>Verified by:</strong> ${randomName()}`;
 }
 
-// Фоновые кубики
+// Кубики на фоне
 for(let i=0;i<30;i++){
   let cube=document.createElement('div');
   cube.className='cube';
